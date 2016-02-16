@@ -57,6 +57,8 @@ document.onkeyup = function(event) {
 					alert("You got it! " + "The answer was: " + userGuess);
 					psychic.wins = psychic.wins + 1;
 					console.log("Wins:" + psychic.wins);
+					clearLetters();
+					psychic.guesses = 15;
 				}
 				//Else, lose a guess, and add user's guess to guesses so far. 
 				else if(userGuess !== computerGuess){
