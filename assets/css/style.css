@@ -1,7 +1,15 @@
-span:{
+/**********************
+ Header
+**********************/
+
+.page-header {
 	text-align: center;
 }
 
-p:{
+p {
+	text-align: center;
+}
+
+.instruction {
 	text-align: center;
 }
